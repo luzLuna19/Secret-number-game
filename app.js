@@ -29,7 +29,7 @@ function verifyAttempt() {
 				`Acertaste el número en ${attempts} ${attempts == 1 ? 'vez' : 'veces'}`,
 			);
 		}
-		attempts++;  
+		attempts++;
 		cleanBox(); 
 	}
 	return;
