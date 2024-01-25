@@ -26,10 +26,10 @@ function verifyAttempt() {
 			document.getElementById('reiniciar').removeAttribute('disabled');
 			return assignTextToElement(
 				'p',
-				`Acertaste el número en ${attempts} ${attempts == 1 ? 'vez' : 'veces'}`,
+				`Acertaste  el número en    ${attempts} ${attempts == 1 ? 'vez' : 'veces'}`,
 			);
 		}
-		attempts++;
+		attempts++;  
 		cleanBox(); 
 	}
 	return;
